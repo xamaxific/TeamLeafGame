@@ -1,0 +1,18 @@
+========== To Record just video or screenshots: ==========
+
+- You only need to import the Cappy script.
+- put it on a game object and configure.
+- Then you're done!
+
+========== To Record video AND audio: ==========
+Because cappy slows down the game to maintain quality video capture, audio playback cannot be recorded in the same step.
+Instead, audio ~events~ are recorded, and can be played back and recorded in realtime after the video itself has been recorded.
+
+- import all scripts and scenes
+- get SavWav script from https://gist.github.com/darktable/2317063
+- put the Sappy script on a game object
+- when configuring, enable recordAudioEvents
+- in all your scripts, for each piece of audio you want recorded, call Cappy.cappy.RecordAudioClip(audioClipName, audioSourcePosition)
+- In the Cappy Audio Playback Scene, make sure all used audioclips are listed by the CappyAudioRecorder component
+- After recording video, run the Cappy Audio Playback Scene. It will replay audio clips in realtime, and save a .wav file
+- By default, it creates audio for the last recording made, but you can have it make audio for a different recording by specifying the relevant audio data recording file
