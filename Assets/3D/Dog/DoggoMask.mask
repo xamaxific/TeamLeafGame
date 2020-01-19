@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoggoMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 0
+  - m_Path: Armature/Base
+    m_Weight: 0
+  - m_Path: Armature/Base/Leg_back_L
+    m_Weight: 0
+  - m_Path: Armature/Base/Leg_back_L/Foot_back_L
+    m_Weight: 0
+  - m_Path: Armature/Base/Leg_back_L/Foot_back_L/Foot_back_L_end
+    m_Weight: 0
+  - m_Path: Armature/Base/Leg_back_R
+    m_Weight: 0
+  - m_Path: Armature/Base/Leg_back_R/Foot_back_R
+    m_Weight: 0
+  - m_Path: Armature/Base/Leg_back_R/Foot_back_R/Foot_back_R_end
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Leg_front_L
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Leg_front_L/Foot_front_L
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Leg_front_L/Foot_front_L/Foot_front_L_end
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Leg_front_R
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Leg_front_R/Foot_front_R
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Leg_front_R/Foot_front_R/Foot_front_R_end
+    m_Weight: 0
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Ear_L
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Ear_L/Ear_L_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Ear_R
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Ear_R/Ear_R_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Hat 1
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Hat 1/Hat_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Mouth_bottom
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Mouth_bottom/Mouth_bottom_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Mouth_top
+    m_Weight: 1
+  - m_Path: Armature/Base/Spine_middle/Spine_front/Neck/Mouth_top/Mouth_top_end
+    m_Weight: 1
+  - m_Path: Armature/Base/Tail
+    m_Weight: 1
+  - m_Path: Armature/Base/Tail/Tail_end
+    m_Weight: 1
+  - m_Path: Dog_body
+    m_Weight: 0
+  - m_Path: Hat
+    m_Weight: 1
