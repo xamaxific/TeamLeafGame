@@ -29,6 +29,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
 
+        public Animator m_doggoAnimator;
 
 		void Start()
 		{
@@ -118,6 +119,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		void UpdateAnimator(Vector3 move)
 		{
             // update the animator parameters
+            m_doggoAnimator.SetFloat( "IdleWalk", m_ForwardAmount, 0.1f, Time.deltaTime );
             m_Animator.SetFloat( "Forward", m_ForwardAmount, 0.1f, Time.deltaTime );
             m_Animator.SetFloat("Turn", m_TurnAmount, 0.1f, Time.deltaTime);
 			m_Animator.SetBool("Crouch", m_Crouching);

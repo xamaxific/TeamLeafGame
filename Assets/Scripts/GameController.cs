@@ -58,6 +58,7 @@ public class GameController : MonoBehaviour
             t -= Time.deltaTime;
             m_timerSlider.value = Mathf.Lerp( 0, 1, t / m_secondsTilEnd );
             yield return null;
+            //Debug.Log( t );
         }
         EnterEnd();
     }

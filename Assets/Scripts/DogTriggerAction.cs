@@ -24,6 +24,9 @@ public class DogTriggerAction : MonoBehaviour
     public GameObject m_munchPart;
     public int m_objectChewCount;
 
+    public ParticleSystem m_snorfPart;
+    public Instantiator m_snorfSounds;
+
     private ObjAge m_likeAge;
     private ObjShape m_likeShape;
     private ObjTexture m_likeTexture;
@@ -87,6 +90,9 @@ public class DogTriggerAction : MonoBehaviour
         
         if ( m_isInRange ) {
             Instantiate( m_munchPart, transform.position + new Vector3 ( 0, 0.092f, -0.046f), transform.rotation );
+            m_snorfPart.Clear();
+            m_snorfPart.Emit( 1 );
+            m_snorfSounds.InstantiateObject();
             if ( !m_hitObject.m_isChewed ) {
                 int count = 0;
                 for ( int i = 0; i < m_hitObject.m_ageTags.Length; i++ ) {
