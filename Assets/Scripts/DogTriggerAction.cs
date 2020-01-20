@@ -50,12 +50,12 @@ public class DogTriggerAction : MonoBehaviour
         Array shape = Enum.GetValues( typeof( ObjShape ) );
         random = new System.Random();
         m_likeShape = ( ObjShape ) shape.GetValue( random.Next( shape.Length ) );
-        m_like2.text = "and the " + m_likeShape.ToString() + ",";
+        m_like2.text = "also the " + m_likeShape.ToString() + ",";
         //Texture
         Array texture = Enum.GetValues( typeof( ObjTexture ) );
         random = new System.Random();
         m_likeTexture = ( ObjTexture ) texture.GetValue( random.Next( texture.Length ) );
-        m_like3.text = "and the " + m_likeTexture.ToString();
+        m_like3.text = "also the " + m_likeTexture.ToString();
     }
 
     private void OnTriggerEnter ( Collider other ) {

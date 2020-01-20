@@ -1,16 +1,16 @@
 ﻿public enum ObjAge {
-    smelly,
-    sparkling,
+    smol,
+    bigg
 }
 public enum ObjShape {
-    roundy,
+    rolly,
     loong,
-    flat,
-    smol
+    boxy,
 }
 
 public enum ObjTexture {
     squishy,
-    floofy,
-    craunchy
+    crunchy,
+    tasty,
+    shiny,
 }

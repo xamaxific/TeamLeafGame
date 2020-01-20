@@ -7,12 +7,32 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: color_palette
+    second: {fileID: 2100000, guid: b33f3d5c2ebec87498cf4bd9c3886b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outline.001
+    second: {fileID: 2100000, guid: 76ef35ec49884d4458f95e930f367ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: tree2_red_Cylinder.020_color_palette.001Mat
     second: {fileID: 2100000, guid: b33f3d5c2ebec87498cf4bd9c3886b81, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: tree2_red_Cylinder.020_outline.001Mat
+    second: {fileID: 2100000, guid: 76ef35ec49884d4458f95e930f367ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree2_red_Cylinder.020_tree2_red_Cylinder.020_color_paletteMat
+    second: {fileID: 2100000, guid: b33f3d5c2ebec87498cf4bd9c3886b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree2_red_Cylinder.020_tree2_red_Cylinder.020_outline.001Mat
     second: {fileID: 2100000, guid: 76ef35ec49884d4458f95e930f367ce1, type: 2}
   materials:
     importMaterials: 1

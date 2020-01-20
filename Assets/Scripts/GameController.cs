@@ -77,4 +77,8 @@ public class GameController : MonoBehaviour
     public void Restart () {
         SceneManager.LoadScene( 0 );
     }
+
+    public void QuitGame () {
+        Application.Quit();
+    }
 }

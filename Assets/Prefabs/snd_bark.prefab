@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3876852771628131240}
   - component: {fileID: 1351423883682257871}
+  - component: {fileID: 4789918688899457653}
   m_Layer: 0
   m_Name: snd_bark
   m_TagString: Untagged
@@ -40,12 +41,12 @@ AudioSource:
   m_GameObject: {fileID: 5385852828968210890}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -3297298645677941591, guid: e7907e6a24889472792c30ffcdda5846,
+  OutputAudioMixerGroup: {fileID: -7514200795997891197, guid: e7907e6a24889472792c30ffcdda5846,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: d7c912d43b73e4b10bf9fb1f2736a15a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.09
-  m_Pitch: 1
+  m_Volume: 0.2
+  m_Pitch: 2
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -128,3 +129,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!164 &4789918688899457653
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5385852828968210890}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: 0
+  m_DecayTime: 1.65
+  m_DecayHFRatio: 1.5
+  m_ReflectionsLevel: -1363
+  m_ReverbLevel: -1153
+  m_ReverbDelay: 0.012
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 21
